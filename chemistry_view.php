@@ -56,7 +56,7 @@ if($Feedback == '')
     echo 'Element_uses: <b>' . $Element_uses . '</b><br> ';
 
     echo '</p>';
-    echo '<img src="images/element' . $id . '.jpg" />';
+    echo '<img src="imagesmine/element' . $id . '.jpg" />';
 }else{//warn user no data
     echo $Feedback;
 }
